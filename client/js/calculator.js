@@ -76,4 +76,10 @@ for(var i = 0; i < keys.length; i++) {
 
 		// if any other key is pressed, just append it
 		else {
-	
+			input.innerHTML += btnVal;
+		}
+
+		// prevent page jumps
+		e.preventDefault();
+	}
+}
